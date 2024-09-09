@@ -1,8 +1,8 @@
 import './App.css';
-import Timer from "./Timer";
-import Settings from "./Settings";
+import Timer from "./components/Timer";
+import Settings from "./components/Settings";
 import {useState} from "react";
-import SettingsContext from "./SettingsContext";
+import SettingsContext from "./components/SettingsContext";
 
 function App() {
   const DEFAULT_WORK_MINUTES_VALUE = 45;
